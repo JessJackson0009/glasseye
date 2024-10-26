@@ -1,0 +1,88 @@
+/* styles/Home.module.css */
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+/* styles/Home.module.css */
+@import url("https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&display=swap");
+
+.heroSection {
+  position: relative;
+  /* Adjust the radial gradient for a tighter vignette effect */
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.663) 60%,
+      rgb(0, 0, 0) 80%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.6) 80%,
+      rgb(0, 0, 0) 100%
+    ),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.879) 5%, rgba(0, 0, 0, 0) 15%),
+    url("/mainimage.jpeg");
+  background-size: 110%;
+  background-position: center;
+  height: 95vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+
+.overlay {
+  padding: 20px;
+  max-width: 950px;
+  margin-bottom: 20px; /* Space from the bottom edge */
+  font-family: "Manjari", sans-serif; /* Apply Manjari font */
+  font-size: 2.25rem; /* Set font size */
+  font-weight: bold; /* Make the font bold */
+  line-height: 1.2; /* Adjust line height for readability */
+}
+
+.overlay h2,
+.overlay p {
+  margin: 0; /* Remove default margin */
+}
+
+/* styles/Home.module.css */
+
+.infoSection {
+  display: flex;
+  align-items: center; /* Centers the image and text vertically */
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Adjust size for the first image */
+.firstImage {
+  max-width: 400px; /* Set a specific max-width for the first image */
+  width: 100%;
+  height: auto;
+}
+
+/* Adjust size for the second image */
+.secondImage {
+  max-width: 600px; /* Set a specific max-width for the second image */
+  width: 100%;
+  height: auto;
+}
+
+.textContainer {
+  flex: 2;
+  max-width: 600px; /* Set a maximum width for text container */
+  padding: 0 20px; /* Add padding for spacing */
+  font-family: "Manjari", sans-serif;
+  font-size: 24px;
+  color: #333;
+  text-align: left;
+  line-height: 1.6;
+}
