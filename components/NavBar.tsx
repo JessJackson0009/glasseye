@@ -15,7 +15,7 @@ const NavBar: React.FC = () => {
         <Image src="/logo.png" alt="Logo" width={50} height={50} />
         <div className={styles.title}>
           <h1>The Glass Eye</h1>
-          <p>Jacksonville, FL</p>
+          <p className={styles.title}>Jacksonville, FL</p>
         </div>
       </div>
       <ul className={isMobile ? styles.navLinksMobile : styles.navLinks}>
@@ -23,7 +23,7 @@ const NavBar: React.FC = () => {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/about">About</Link>
+          <Link href="/About">About</Link>
         </li>
         <li>
           <Link href="/shop">Shop</Link>

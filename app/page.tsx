@@ -20,8 +20,12 @@ export default function Home() {
       {/* First Section */}
       <section className={styles.infoSection}>
         <div className={styles.imageContainer}>
-          <img src="/logo.png" alt="Logo" className={styles.firstImage} />{" "}
-          {/* Unique class for first image */}
+          <img
+            src="/logo.png"
+            alt="Logo"
+            className={styles.firstImage}
+            loading="lazy"
+          />{" "}
         </div>
         <div className={styles.textContainer}>
           <p>
@@ -61,6 +65,7 @@ export default function Home() {
             src="/prodsum.png"
             alt="Products Summary"
             className={styles.secondImage}
+            loading="lazy"
           />{" "}
           {/* Unique class for second image */}
         </div>
