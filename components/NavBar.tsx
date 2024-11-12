@@ -26,10 +26,10 @@ const NavBar: React.FC = () => {
           <Link href="/About">About</Link>
         </li>
         <li>
-          <Link href="/shop">Shop</Link>
+          <Link href="/Shop">Shop</Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/Contact">Contact</Link>
         </li>
       </ul>
       <button

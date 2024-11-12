@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+
+.contactHeroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: -10px;
+  background-color: #fffffa; /* Light background for the section */
+}
+
+.contactLogo {
+  width: 400px; /* Set a fixed width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0px 0; /* Add space around the image */
+}
+
+.contactHeading {
+  font-size: 40px;
+  font-family: "Julius Sans One", sans-serif;
+  color: black;
+  margin: 20px 0;
+}
+
+.contactsContainer {
+  display: flex; /* Enables Flexbox layout */
+  justify-content: flex-start; /* Aligns items to the left (default) */
+  align-items: center; /* Vertically aligns items (optional) */
+  gap: 50px;
+  padding-bottom: 100px;
+  padding-left: 225px;
+}
+
+.cardContainer {
+  text-align: center;
+}
+
+.cardLogo {
+  width: 285px;
+  height: auto;
+}
+
+.cardTitle {
+  font-family: "Julius Sans One", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+.cardText {
+  font-family: "Manjari", sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.bottomText {
+  font-family: "Manjari", sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
