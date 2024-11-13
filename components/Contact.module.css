@@ -28,7 +28,6 @@
   align-items: center; /* Vertically aligns items (optional) */
   gap: 50px;
   padding-bottom: 100px;
-  padding-left: 225px;
 }
 
 .cardContainer {
@@ -62,4 +61,11 @@
   font-weight: bold;
   font-size: 20px;
   padding-bottom: 50px;
+}
+
+.mainContainer {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
 }
